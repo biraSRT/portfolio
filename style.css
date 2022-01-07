@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0 1%;
+    font-family: 'Source Code Pro', monospace, sans-serif;
+    background-color:  black ;
+    text-align: center;
+    font-size: 25px;
+    color: seashell;
+
+  }
+
+  header {
+      display: flex;
+      background-color: black;
+      color: white;
+      border-bottom: 2px solid white;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      flex-direction: row;
+      height: 100px;
+
+      
+  }
+
+  header h1 {
+      font-size: 30px;
+      justify-content: flex-start;
+      padding-left: 10px;
+  }
+  
+  header li {
+      display: inline-flex;
+      text-decoration: none;
+      padding: 0 10px;
+      border: 1px solid white;
+  }
+
+  a {
+      color:seashell;
+      text-decoration: none;
+  }
+
+  a:hover {
+      background-color: gray;
+  }
+
+  nav ul {
+      justify-content: flex-end;
+      
+  }
+
+  .picture {
+      background-image: url('https://wallpaperaccess.com/full/2569920.jpg');
+      height: 840px;
+      background-size: cover;
+      background-blend-mode: darken;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      color: white;
+      flex-direction: column;
+      background-color: rgba(0,0,0,0.5);
+  }
+
+  .tech {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      background-color: white;
+      color: black;
+  }
+
+  .tech img {
+      width: 15%;
+      height: auto;
+  }
+
+  .projects {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+
+  }
+
+  .projects div {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      align-content: space-between;
+      border: 2px solid white;
+      width: 30%;
+      height: 800px; 
+  }
+
+  .projects div img {
+      width: 80%;
+      height: 450px;
+      object-fit: contain;
+  }
+
+  .projects div a {
+    border: 1px solid white;
+    padding: 0 10px;
+  }
+
+  .contact {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+  }
+
+  .linkedin img {
+      border: 1px solid white;
+      border-radius: 12px;
+  }
+
+  .linkedin a:hover {
+    background-color: black;
+}
+
+footer {
+    border-top: 1px solid white;
+    margin: 20px;
+}
+
+
+
+  
+
